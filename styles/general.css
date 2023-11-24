@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+}
+
+#background {
+    min-height: 70vh;
+    padding: 0 40px;
+    background-color: lightgoldenrodyellow;
+    box-shadow:15px 15px 15px rgba(44, 58, 22, 0.625);
+    width: 500px;
+    margin-top: 50px;
+    border-radius: 40px;
+    position: relative;
+}

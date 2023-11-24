@@ -1,0 +1,26 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Gowun+Dodum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Dokdo&family=Gowun+Dodum&display=swap');
+
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid 1px rgba(0,0,0,0.3);
+
+}
+
+#header .title {
+    font-size: 34px;
+    font-family: 'Black Han Sans', sans-serif;
+    margin: 10px 0 0 20px;
+}
+
+#header img.add_btn {
+    width:90px;
+    cursor:pointer;
+}
+
+/* 구분선 */ 
